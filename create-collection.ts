@@ -29,7 +29,7 @@ const transaction = await createNft(umi, {
     mint: collectionMint, 
     name: "My Collection",
     symbol: "MC",
-    uri: "https://example.com/my-collection-metadata.json",
+    uri: "https://raw.githubusercontent.com/Cobster-10/solana-nft/refs/heads/main/metadata.json",
     sellerFeeBasisPoints: percentAmount(0), 
     isCollection: true,
 
